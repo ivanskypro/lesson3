@@ -100,6 +100,34 @@ public class Main {
 
         System.out.println("Среднее количество дней на похудение " + averageDays);
 
+        System.out.println("Задание 5 ");
+
+        int mashaPerMonth = 67_760;
+        System.out.println("Старая зарплата Маши " + mashaPerMonth + " рублей");
+        float mashaSalaryIncrease = mashaPerMonth + (mashaPerMonth * 0.10f);
+        System.out.println("Маша теперь получает " + mashaSalaryIncrease + " рублей");
+
+        int denisPerMonth = 83_690;
+        System.out.println("Старая зарплата Дениса " + denisPerMonth + " рублей");
+        float denisSalaryIncrease = denisPerMonth + (denisPerMonth * 0.10f);
+        System.out.println("Денис теперь получает " + denisSalaryIncrease + " рублей");
+
+        int kristinaPerMonth = 76_230;
+        System.out.println("Старая зарплата Кристины " + kristinaPerMonth + " рублей");
+        float kristinaSalaryIncrease = kristinaPerMonth + (kristinaPerMonth * 0.10f);
+        System.out.println("Кристина теперь полуает " + kristinaSalaryIncrease + " рублей");
+
+        int oldSalaryMashaAmount = (mashaPerMonth * 12);
+        float newSalaryMashaAmount = (mashaSalaryIncrease * 12);
+        float mashaDifference = newSalaryMashaAmount - oldSalaryMashaAmount;
+
+        System.out.println("Старый годовой доход " + oldSalaryMashaAmount + " рублей");
+        System.out.println("Новый годовой доход " + newSalaryMashaAmount + " рублей");
+        System.out.println("Разница дохода " + mashaDifference + " рублей");
+
+
+
+
 
 
 
